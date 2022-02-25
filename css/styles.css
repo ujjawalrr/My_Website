@@ -1,3 +1,19 @@
+@media screen and (max-width: 893px) {
+    .links {
+        display: flex;
+        justify-content: space-around;
+        padding: auto;
+    }
+}
+@media screen and (min-width: 893px) {
+    .links {
+        display: flex;
+        justify-content: space-between;
+        margin-inline-start: 30%;
+        margin-inline-end: 30%;
+        padding: auto;
+    }
+}
 * {
     box-sizing: border-box;
 }
@@ -5,7 +21,6 @@ a {
     text-decoration: none;
     color: #000000;
     font-family: 'Montserrat', serif;
-    margin: 10px 20px;
 }
 a:hover {
     color: #eaf6f6;
