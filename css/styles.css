@@ -141,6 +141,7 @@ p {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
+    z-index: 0;
 }
 .bottom-top {
     display: flex;
@@ -183,6 +184,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
 nav a {
     padding: 15px 20px;
