@@ -4,6 +4,14 @@
         flex-wrap: wrap;
         margin-top: 50px;
     }
+    h1{
+        text-align: center;
+        color: #66BFBF;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 595;
+        font-size: 4rem;
+        margin: 4px;
+    }
     .left-img {
         width: 100%;
     }
@@ -27,6 +35,14 @@
     .content {
         display: flex;
         margin-top: 50px;
+    }
+    h1{
+        text-align: center;
+        color: #66BFBF;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 595;
+        font-size: 4.625rem;
+        margin: 4px;
     }
     .left-img {
         width: 100%;
@@ -136,15 +152,6 @@ body {
     color: #eaf6f6;
     font-size: 0.75rem; 
 }
-h1{
-    text-align: center;
-    color: #66BFBF;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 595;
-    font-size: 4.625rem;
-    margin: 4px;
-}
-
 input[type="text"],
 input[type="email"],
 input[type="number"] {
