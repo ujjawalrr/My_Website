@@ -17,6 +17,15 @@
         font-weight: normal;
         padding-bottom: 10px;
     }
+    .contact-me h2 {
+        margin: 0px;
+        padding: 0px;
+        height: 42px;
+    }
+    .contact-me h3 {
+        margin: 0px;
+        padding: 0px;
+    }
 }
 @media screen and (min-width: 893px) {
     .links {
@@ -38,6 +47,15 @@
         font-size: 2.5rem;
         font-weight: normal;
         padding-bottom: 10px;
+    }
+    .contact-me h2 {
+        margin: 0px;
+        padding: 0px;
+        height: 55px;
+    }
+    .contact-me h3 {
+        margin: 0px;
+        padding: 0px;
     }
 }
 * {
@@ -65,12 +83,12 @@ body {
     background-image: -ms-linear-gradient(top, #11999E, #9DD0D0);
     background-image: -o-linear-gradient(top, #11999E, #9DD0D0);
     background-image: -webkit-gradient(to bottom, #11999E, #9DD0D0);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
+    -webkit-border-radius: 1.4vw;
+    -moz-border-radius: 1.4vw;
+    border-radius: 1.4vw;
     color: #FFFFFF;
     font-family: 'Montserrat', serif;
-    font-size: 40px;
+    font-size: 2.5vw;
     font-weight: 100;
     padding: 3px 30px;
     -webkit-box-shadow: 1px 1px 20px 0 #000000;
@@ -93,9 +111,9 @@ body {
     background-image: -ms-linear-gradient(top, #11999E, #66BFBF);
     background-image: -o-linear-gradient(top, #11999E, #66BFBF);
     background-image: -webkit-gradient(to bottom, #11999E, #66BFBF);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
+    -webkit-border-radius: 1.4vw;
+    -moz-border-radius: 1.4vw;
+    border-radius: 1.4vw;
     text-decoration: none;
     text-shadow: 2px 2px 40px #000000;
     -webkit-box-shadow: 2px 2px 40px 0 #000000;
