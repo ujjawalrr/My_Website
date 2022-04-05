@@ -14,10 +14,20 @@
 </head>
 <body>
     <nav>
-        <a href="index.html">Home</a>
+        <div class="dropdown">
+            <a class="drop-btn" href="index.html">Home
+                <img class="drop_img" src="https://cdn1.iconfinder.com/data/icons/interface-elements-iv-1/512/Down_Triangle_Arrow-512.png">
+            </a>
+            <div class="dropdown-content">
+                <a href="#intro">Intro</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact-me">Contact Me</a>
+            </div>
+        </div>
         <a href="contact.html">Contact Me</a>
     </nav>
-    <div class="topContainer">
+    <div class="topContainer" id="intro">
         <div class="super-top">
             <img class="top-cloud" src="images/cloud.png" alt="cloud">
             <h1>I'm Ujjawal Kumar</h1>
@@ -35,7 +45,7 @@
             <p class="intro">I am a 1st year Undergaduate student of the department of Metallurgical and Materials Engineering, enrolled in its B.Tech course.</p>
         </div>
         <hr>
-        <div class="skills">
+        <div class="skills" id="skills">
             <h2>My Skills</h2>
             <div class="skill-row">
                 <img class="skill-img1" src="images/computer.png" alt="web development">
@@ -49,7 +59,7 @@
             </div>
         </div>
         <hr>
-        <h2>My Projects</h2>
+        <h2 id="projects">My Projects</h2>
         <div class="projects">
             <div class="t1">
                 <div class="tt1">
@@ -88,7 +98,7 @@
                 </div>
             </div>
         </div>
-        <div class="contact-me">
+        <div class="contact-me" id="contact-me">
             <h2>Get In Touch</h2>
             <h3>If you love Content Writing as much as I do.</h3>
             <p class="contact-content">Love Content Writing as much as I do? Let's talk about how pleasing they are! We can code while we write some good stories!</p>
