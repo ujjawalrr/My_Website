@@ -259,6 +259,7 @@
 }
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 .tt1 {
     width: 100%;
